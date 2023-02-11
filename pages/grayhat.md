@@ -1,0 +1,2 @@
+- ![Gray Hat Hacking The Ethical Hackers Handbook, Sixth Edition (Daniel Regalado, Jonathan Ness, Chris Eagle etc.) (z-lib.org).pdf](../assets/Gray_Hat_Hacking_The_Ethical_Hackers_Handbook,_Sixth_Edition_(Daniel_Regalado,_Jonathan_Ness,_Chris_Eagle_etc.)_(z-lib.org)_1671147134229_0.pdf)
+-

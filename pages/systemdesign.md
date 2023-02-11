@@ -1,0 +1,2 @@
+- ![System Design Interview An Insider’s Guide (Alex Xu).pdf](../assets/System_Design_Interview_An_Insider’s_Guide_(Alex_Xu)_1668886834673_0.pdf)
+- [[systemdesign/scalezerotomillions]]

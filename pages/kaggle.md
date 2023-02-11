@@ -1,0 +1,4 @@
+- [introProgramming](https://www.kaggle.com/learn/intro-to-programming)
+	- [arithmeticAndVariables](https://www.kaggle.com/code/zumhlungler/exercise-arithmetic-and-variables/edit)
+	- [function](https://www.kaggle.com/code/zumhlungler/exercise-functions/edit)
+	-
