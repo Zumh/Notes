@@ -1,0 +1,1 @@
+- ![LinuxBasicHk.pdf](../assets/LinuxBasicHk_1676139026531_0.pdf)

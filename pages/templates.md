@@ -11,7 +11,7 @@
 	- [[commonsensedsal]]
 	- ostp
 	- networking
-	- systemdesign
+	- [[systemdesign]]
 	- grkpattern
 	- [[designPattern]]
 	- [[hiredInTech]]
