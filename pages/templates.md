@@ -1,6 +1,5 @@
 - cert
   template:: cert
-  collapsed:: true
 	- cs50
 	- [[odin]]
 	- freecodecamp

@@ -1,2 +1,0 @@
-- [[odin/foundation]]
-- [[odin/javascripts]]

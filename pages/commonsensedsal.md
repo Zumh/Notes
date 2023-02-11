@@ -1,4 +1,0 @@
-- ![commonsenseDSAL.pdf](../assets/commonsenseDSAL_1668537001924_0.pdf)
-- [[commonsensedsal/whydatastructures]]
-- [[commonsensedsal/recursive]]
-- [[commonsensedsal/learningtoWriteRecursive]]
