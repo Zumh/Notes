@@ -1,0 +1,25 @@
+# email set up for git config
+git config --global user.name "Your Name"
+git config --global user.email "yourname@example.com"
+
+# change git master to main
+git config --global init.defaultBranch main
+
+# enable colorful output with git
+git config --global color.ui auto
+
+# set your default branch reconciliation behavior to merging.
+git config --global pull.rebase false
+
+# verify email and user name in git config 
+git config --get user.name
+git config --get user.email
+
+# generate ssh key
+ssh-keygen -t ed25519 -C <private email from github account>
+
+# get the ssh key from this file
+cat ~/.ssh/id_ed25519.pub
+
+# this command make a different repository safe and allow us to push in the main
+git config --global --add safe.directory /mnt/d/work/Notes
