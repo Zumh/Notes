@@ -1,0 +1,1 @@
+- ![grayHat2022.pdf](../assets/grayHat2022_1676137488082_0.pdf)

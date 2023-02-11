@@ -8,7 +8,6 @@
 	- hackkerrank
 - interview
   template:: interview
-  collapsed:: true
 	- [[commonsensedsal]]
 	- ostp
 	- networking
@@ -23,7 +22,6 @@
 	- [[grayhat]]
 	- [[rangeforce]]
 	- [[pwncollege]]
-	-
 - projectbase
   template:: projactbase
   collapsed:: true
