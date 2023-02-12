@@ -15,6 +15,7 @@
 	- grkpattern
 	- [[designPattern]]
 	- [[hiredInTech]]
+	- [[architect]]
 - hking
   template:: hking
 	- [[linuxbasic]]

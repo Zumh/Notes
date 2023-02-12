@@ -11,6 +11,7 @@
             "id": "f8b3463f70226407",
             "type": "leaf",
             "state": {
+<<<<<<< HEAD
               "type": "canvas",
               "state": {
                 "file": "pages/Untitled.canvas",
@@ -20,6 +21,13 @@
                   "zoom": 0,
                   "snapToGrid": false
                 }
+=======
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-02-11.md",
+                "mode": "source",
+                "source": false
+>>>>>>> e336ee114d7a2ab92827b1b2bd705da6a18cdf9f
               }
             }
           }
@@ -89,7 +97,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "pages/Untitled.canvas",
+=======
+                "file": "journals/2023-02-11.md",
+>>>>>>> e336ee114d7a2ab92827b1b2bd705da6a18cdf9f
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +118,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "pages/Untitled.canvas",
+=======
+                "file": "journals/2023-02-11.md",
+>>>>>>> e336ee114d7a2ab92827b1b2bd705da6a18cdf9f
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +145,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "pages/Untitled.canvas"
+=======
+                "file": "journals/2023-02-11.md"
+>>>>>>> e336ee114d7a2ab92827b1b2bd705da6a18cdf9f
               }
             }
           }
