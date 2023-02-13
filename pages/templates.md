@@ -23,6 +23,7 @@
 	- [[grayhat]]
 	- [[rangeforce]]
 	- [[pwncollege]]
+	- [[tips-tricks]]
 - projectbase
   template:: projactbase
   collapsed:: true

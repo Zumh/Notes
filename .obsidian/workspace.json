@@ -1,34 +1,18 @@
 {
   "main": {
-    "id": "4c037c1a5d14c2f3",
+    "id": "f67b235519b80ded",
     "type": "split",
     "children": [
       {
-        "id": "937744f8f93d6aff",
+        "id": "27e688a40ac6c995",
         "type": "tabs",
         "children": [
           {
-            "id": "f8b3463f70226407",
+            "id": "b3f1c49fd3a7462b",
             "type": "leaf",
             "state": {
-<<<<<<< HEAD
-              "type": "canvas",
-              "state": {
-                "file": "pages/Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0,
-                  "snapToGrid": false
-                }
-=======
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-02-11.md",
-                "mode": "source",
-                "source": false
->>>>>>> e336ee114d7a2ab92827b1b2bd705da6a18cdf9f
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -37,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b7afb8ad33f65415",
+    "id": "65cbbe47e738dc92",
     "type": "split",
     "children": [
       {
-        "id": "edfc503ae4c5b57a",
+        "id": "5f7988d3ab8bf70e",
         "type": "tabs",
         "children": [
           {
-            "id": "a6c24b851320841f",
+            "id": "f967ff088af6fa46",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -55,7 +39,7 @@
             }
           },
           {
-            "id": "c42eede7de81ddf3",
+            "id": "813e4837871ebd1c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -70,7 +54,7 @@
             }
           },
           {
-            "id": "ee44d1d3d3aa7351",
+            "id": "3293215ede1cf311",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -84,24 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "159b51be1607dd9f",
+    "id": "aa1d79a3624392f9",
     "type": "split",
     "children": [
       {
-        "id": "82ff6b0280877e82",
+        "id": "9d8d6d793a471bd7",
         "type": "tabs",
         "children": [
           {
-            "id": "f752d8b4a6991fb4",
+            "id": "4fcf71065aaff2a7",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "pages/Untitled.canvas",
-=======
-                "file": "journals/2023-02-11.md",
->>>>>>> e336ee114d7a2ab92827b1b2bd705da6a18cdf9f
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,23 +92,18 @@
             }
           },
           {
-            "id": "a0e35c84ec1005c0",
+            "id": "2b540520f0c3c48f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "pages/Untitled.canvas",
-=======
-                "file": "journals/2023-02-11.md",
->>>>>>> e336ee114d7a2ab92827b1b2bd705da6a18cdf9f
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "f5135aaa8ec4522e",
+            "id": "4641e35922e5f67a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -140,17 +114,11 @@
             }
           },
           {
-            "id": "2e9a6f3070b7f188",
+            "id": "d0614c909d549131",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-<<<<<<< HEAD
-                "file": "pages/Untitled.canvas"
-=======
-                "file": "journals/2023-02-11.md"
->>>>>>> e336ee114d7a2ab92827b1b2bd705da6a18cdf9f
-              }
+              "state": {}
             }
           }
         ]
@@ -170,8 +138,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f8b3463f70226407",
+  "active": "b3f1c49fd3a7462b",
   "lastOpenFiles": [
-    "journals/2023-02-11.md"
+    "pages/grayhat.md",
+    "pages/Untitled.canvas",
+    "journals/2023-02-12.md"
   ]
 }
