@@ -16,6 +16,7 @@
 	- [[designPattern]]
 	- [[hiredInTech]]
 	- [[architect]]
+	- [[codecomplete]]
 - hking
   template:: hking
 	- [[linuxbasic]]
@@ -26,26 +27,22 @@
 	- [[tips-tricks]]
 - projectbase
   template:: projactbase
-  collapsed:: true
 	- autoboringpython
 	- pythondeitel
 	- cdsal
 	- cppdeitel
 - tutor
   template:: tutoring
-  collapsed:: true
 	- Exercism
 	- Leetcode
 - resources
   template:: res
-  collapsed:: true
 	- [snippets-30secs](https://www.30secondsofcode.org/)
 	- [javascript](https://1loc.dev/)
 	- [laravel](https://shortcode.dev/)
 	- [css-layouts](https://csslayout.io/)
 - journaling
   template:: jrnl
-  collapsed:: true
 	- Date:
 	  What is it about?
 	  What we learned?

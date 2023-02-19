@@ -1,0 +1,5 @@
+- [[codecomplete/LayingFoundation/SoftwareConstruction]]
+- [[codecomplete/LayingFoundation/Metaphors]]
+- [[codecomplete/LayingFoundation/MeasureTwiceCutOnce]]
+- [[codecomplete/LayingFoundation/KeyConstructionDecisions]]
+-

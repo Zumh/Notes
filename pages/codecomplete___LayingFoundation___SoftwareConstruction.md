@@ -1,0 +1,10 @@
+- # Constructions
+	- Construction central activity of software development; guarantee to be succcess.
+	- Constructions other terms == coding, programming
+	- coding, debugging, design, unit testing, integration testing ..etc
+	- ### why consturtion is important?
+		- Central part of software development
+		- Take up to 30 or 80 percent of time
+	- Understanding of "Construction" determine a good programmer
+- ## Non Consturctions
+	- management, requirements development, software architecture, user-interface design, system testing and maintenance.
