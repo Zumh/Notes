@@ -3,5 +3,6 @@
   "newFileFolderPath": "pages",
   "newLinkFormat": "relative",
   "attachmentFolderPath": "assets",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true
 }

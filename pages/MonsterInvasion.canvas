@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"2277849c6e690db8","x":-125,"y":-30,"width":250,"height":60,"color":"4","type":"text","text":"## Monster Invasion"},
+		{"id":"ad2ac9f37e765bae","x":-250,"y":140,"width":125,"height":60,"type":"text","text":"## Robot"},
+		{"id":"d3e8808377ba5817","x":348,"y":-31,"width":152,"height":61,"type":"text","text":"## Rooms"},
+		{"id":"62d83eb6dc711dba","x":304,"y":-420,"width":250,"height":120,"color":"4","type":"text","text":"## Room 2 \n- faster monsters\n- 10"},
+		{"id":"0d427dc20908ca3d","x":304,"y":-580,"width":250,"height":113,"color":"4","type":"text","text":"## Room 3 \nSame speed from Room 2\n10 x 2 monsters"},
+		{"id":"51f3755458435dc6","x":704,"y":-580,"width":156,"height":119,"color":"5","type":"text","text":"# Winner\n\"Score board\""},
+		{"id":"f856b14cb34ee7e1","x":-150,"y":-461,"width":310,"height":281,"color":"4","type":"text","text":"## Door\n- appear before monsters fall\n- appear when user reach  total score for each room\n- door dissappear if robot touch\n- True or False\n- True == dissapear\n- False == appear"},
+		{"id":"a3f8e8685b5bcaf6","x":-85,"y":493,"width":250,"height":187,"color":"5","type":"text","text":"## Score\n- count collected coins\n- Show total_score \n- Win or Lost."},
+		{"id":"7886fff2f04a06d3","x":763,"y":-317,"width":237,"height":137,"color":"1","type":"text","text":"## Game Over\n\"Show total score\""},
+		{"id":"50bcb9a3e3b64f8f","x":1000,"y":-467,"width":250,"height":60,"color":"5","type":"text","text":"play again - press p\nexit - press x"},
+		{"id":"8c00b263ff64b12c","x":304,"y":-248,"width":250,"height":115,"color":"4","type":"text","text":"## Room 1 \n- slow monster\n- 5"},
+		{"id":"6798b7f1866e0ff6","x":-620,"y":342,"width":299,"height":245,"color":"6","type":"text","text":"## Behaviors\n- left and right movement\n- If touch by monster lost health == amount of monsters max from each level\n- renew  health every room\n- collect coins"},
+		{"id":"e3ae9e6350c6056d","x":195,"y":300,"width":359,"height":242,"color":"1","type":"text","text":"## Monsters\n- Get randomize location x,y \n- wait for the door turn True\n- Attack or fall from the sky\n- Keep falling from the sky until\n- Score reach appropriate max monster\n-"},
+		{"id":"d382febfa17621bf","x":632,"y":140,"width":250,"height":174,"color":"5","type":"text","text":"## Main \n- Show  keys for playing game\n- Help\n"},
+		{"id":"7139b7ff44cb7aa3","x":-760,"y":-248,"width":250,"height":198,"color":"3","type":"text","text":"## Coins \n\nif touch by robot  dissappear\nmonsters\nspawn randomly from the sky\n"}
+	],
+	"edges":[
+		{"id":"c759d4eeb79f4ab8","fromNode":"2277849c6e690db8","fromSide":"bottom","toNode":"ad2ac9f37e765bae","toSide":"top","color":"6"},
+		{"id":"a532aa6e58b38d7a","fromNode":"2277849c6e690db8","fromSide":"bottom","toNode":"e3ae9e6350c6056d","toSide":"top","color":"1"},
+		{"id":"cb584ba3beb90191","fromNode":"d3e8808377ba5817","fromSide":"top","toNode":"8c00b263ff64b12c","toSide":"bottom","color":"4"},
+		{"id":"dd2aab7684156e37","fromNode":"8c00b263ff64b12c","fromSide":"top","toNode":"62d83eb6dc711dba","toSide":"bottom","color":"4"},
+		{"id":"81ed3f28cce8a476","fromNode":"62d83eb6dc711dba","fromSide":"top","toNode":"0d427dc20908ca3d","toSide":"bottom","color":"4"},
+		{"id":"484754bbcd6dc9a0","fromNode":"0d427dc20908ca3d","fromSide":"right","toNode":"51f3755458435dc6","toSide":"left","color":"4"},
+		{"id":"59c24682c2b00b71","fromNode":"2277849c6e690db8","fromSide":"right","toNode":"d3e8808377ba5817","toSide":"left","color":"4","label":"Door"},
+		{"id":"82444680ccc2b26c","fromNode":"f856b14cb34ee7e1","fromSide":"bottom","toNode":"d3e8808377ba5817","toSide":"left","color":"4"},
+		{"id":"07264d2da01b437d","fromNode":"ad2ac9f37e765bae","fromSide":"left","toNode":"f856b14cb34ee7e1","toSide":"left","color":"4"},
+		{"id":"1132f2a716dc0e81","fromNode":"ad2ac9f37e765bae","fromSide":"bottom","toNode":"6798b7f1866e0ff6","toSide":"top","color":"6"},
+		{"id":"2be6f6f453d804c9","fromNode":"2277849c6e690db8","fromSide":"bottom","toNode":"a3f8e8685b5bcaf6","toSide":"top","color":"5"},
+		{"id":"da9d572b18e98ace","fromNode":"2277849c6e690db8","fromSide":"bottom","toNode":"d382febfa17621bf","toSide":"top","color":"5"},
+		{"id":"6a8c6332932abdc5","fromNode":"0d427dc20908ca3d","fromSide":"right","toNode":"7886fff2f04a06d3","toSide":"left","color":"1"},
+		{"id":"88e7f0e10214e788","fromNode":"51f3755458435dc6","fromSide":"right","toNode":"50bcb9a3e3b64f8f","toSide":"left","color":"5"},
+		{"id":"fa240610527e526b","fromNode":"7886fff2f04a06d3","fromSide":"right","toNode":"50bcb9a3e3b64f8f","toSide":"bottom","color":"5"},
+		{"id":"99b3eb68d2b14fbe","fromNode":"2277849c6e690db8","fromSide":"left","toNode":"7139b7ff44cb7aa3","toSide":"right"}
+	]
+}

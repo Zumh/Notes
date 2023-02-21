@@ -25,6 +25,7 @@
 	- [[rangeforce]]
 	- [[pwncollege]]
 	- [[tips-tricks]]
+	- [[hackermind]]
 - projectbase
   template:: projactbase
 	- autoboringpython

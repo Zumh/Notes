@@ -1,0 +1,3 @@
+- ![code-complete.pdf](../assets/code-complete_1676828507082_0.pdf)
+- [[codecomplete___LayingFoundation]]
+-

@@ -1,0 +1,22 @@
+- # Constructions
+	- What is Construction?
+	  ((63f289b5-e1c0-490c-8e23-672e93571fec))
+		- Problem definition
+		- Requirements development
+		- Construction planning
+		- Software architecture, or high-level design
+		- Detailed design
+		- Coding and debugging
+		- Unit testing Integration testing Integration
+		- System testing
+		- Corrective maintenance
+	- Construction central activity of software development; guarantee to be succcess.
+	- Constructions other terms == coding, programming
+	- coding, debugging, design, unit testing, integration testing ..etc
+	- ### why consturtion is important?
+	  ((63f289f0-3337-404e-93b9-9647744bd157))
+		- Central part of software development
+		- Take up to 30 or 80 percent of time
+	- Understanding of "Construction" determine a good programmer
+- ## Non Consturctions
+	- management, requirements development, software architecture, user-interface design, system testing and maintenance.

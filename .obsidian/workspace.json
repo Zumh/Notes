@@ -4,18 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "27e688a40ac6c995",
+        "id": "816fdf0569937034",
         "type": "tabs",
         "children": [
           {
-            "id": "b3f1c49fd3a7462b",
+            "id": "e1f079ff0a1749be",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "journals/2023-02-13.md",
-                "mode": "source",
-                "source": false
+                "file": "pages/MonsterInvasion.canvas",
+                "viewState": {
+                  "x": -470.5,
+                  "y": 464.5,
+                  "zoom": 0,
+                  "snapToGrid": false
+                }
               }
             }
           }
@@ -69,7 +73,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 389.5,
+    "collapsed": true
   },
   "right": {
     "id": "aa1d79a3624392f9",
@@ -85,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-02-13.md",
+                "file": "pages/MonsterInvasion.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2023-02-13.md",
+                "file": "pages/MonsterInvasion.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-02-13.md"
+                "file": "pages/MonsterInvasion.canvas"
               }
             }
           }
@@ -146,10 +151,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b3f1c49fd3a7462b",
+  "active": "e1f079ff0a1749be",
   "lastOpenFiles": [
-    "pages/grayhat.md",
-    "pages/Untitled.canvas",
-    "journals/2023-02-12.md"
+    "pages/SokobanGameProject.canvas",
+    "codecomplete-0.canvas",
+    "pages/MonsterInvasion.canvas",
+    "pages/contents.md",
+    "pages/Laying_foundation_metaphors.md",
+    "codecomplete.canvas",
+    "pages/codecomplete.md",
+    "assets/code-complete_1676828507082_0.pdf",
+    "pages/codecomplete___LayingFoundation.md",
+    "pages/codecomplete%5F%5F%5FLayingFoundation%5F%5F%5FMeasureTwiceCutOnce.md"
   ]
 }
