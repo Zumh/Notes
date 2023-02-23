@@ -56,3 +56,33 @@ file-path:: ../assets/code-complete_1676838781492_0.pdf
   hl-page:: 100
   hl-color:: yellow
   id:: 63f3dfee-e0e9-4837-854e-a38add6d7776
+- Requirements Prerequisite
+  ls-type:: annotation
+  hl-page:: 103
+  hl-color:: yellow
+  id:: 63f7abba-4131-45a9-abfc-4f6c1b6878df
+- Explicit requirements help to ensure that the user rather than the programmer drives the system's functionality. I
+  ls-type:: annotation
+  hl-page:: 104
+  hl-color:: yellow
+  id:: 63f7ac0d-ca70-4411-be72-eb9778392506
+- The Myth of Stable Requirements
+  ls-type:: annotation
+  hl-page:: 106
+  hl-color:: yellow
+  id:: 63f7acb4-068d-44aa-b530-f6cfb39c6ef9
+- The development process helps customers better understand their own needs
+  ls-type:: annotation
+  hl-page:: 106
+  hl-color:: yellow
+  id:: 63f7ad29-427e-405f-b0d5-73d135f5ef51
+- Specific Functional Requirements
+  ls-type:: annotation
+  hl-page:: 110
+  hl-color:: yellow
+  id:: 63f7af1e-01fa-4864-b6af-b995a4128bf4
+- Are all the inputs to the system specified, including their source, accuracy, range of values, and frequency? Are all the outputs from the system specified, including their destination, accuracy, range of values, frequency, and format? Are all output formats specified for Web pages, reports, and so on? Are all the external hardware and software interfaces specified? Are all the external communication interfaces specified, including handshaking, error-checking, and communication protocols? Are all the tasks the user wants to perform specified? Is the data used in each task and the data resulting from each task specified?
+  ls-type:: annotation
+  hl-page:: 110
+  hl-color:: yellow
+  id:: 63f7af4a-bcd5-4c63-ac66-9df5986b05e1

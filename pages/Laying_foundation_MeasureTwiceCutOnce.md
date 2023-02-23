@@ -33,4 +33,54 @@
 			- The cost of changing requirements, design, and code downstream is likely to be low.
 - ## Problem-Def Prerequisite
   ((63f3dfee-e0e9-4837-854e-a38add6d7776))
-	-
+	- Problem definition lay foundation of programming process
+	- User language and problem described user's point of view
+	- "Find the box first before thinking outside of the box" Andy Hunt Dave Thomas
+- ## Requirements Prerequisite
+  ((63f7abba-4131-45a9-abfc-4f6c1b6878df))
+	- Explicit requirements help to 
+	  * ensure that the user rather than the programmer drives the system's functionality. 
+	  * avoid arguments.
+	  * time is expensive and we don't want to miss specific aspects of the problem.
+- ## Myth of stable requirement
+  ((63f7acb4-068d-44aa-b530-f6cfb39c6ef9))
+	- Requirement is like water if frozen easier to build
+	- The development process helps customers better understand their own needs.
+	- If customer change their mind during construction 
+	  * make schedule for revised and estimated cost
+	  * reality check for customers
+	- An evolutionary prototyping approach help build system's requirements.
+	  * build little, get a little feedback, adjust design a little, and few changes.
+	- To dump or not to dump project
+	  * if the benefit of quitting project out weight the result
+	  * Clarify to customer because sometime requirement disappear.
+- ## Requirement sanity check
+  ((63f7af1e-01fa-4864-b6af-b995a4128bf4))
+	- Are all the inputs to the system specified, including their source, accuracy, range of values, and frequency?
+	- Are all the outputs from the system specified, including their destination, accuracy, range of values, frequency, and format?
+	- Are all output formats specified for Web pages, reports, and so on?
+	- Are all the external hardware and software interfaces specified?
+	- Are all the external communication interfaces specified, including handshaking, error-checking, and communication protocols?
+	- Are all the tasks the user wants to perform specified? Is the data used in each task and the data resulting from each task specified?
+- ## Non Functional
+	- Is the expected response time, from the user's point of view, specified for all necessary operations?
+	- Are other timing considerations specified, such as processing time, datatransfer rate, and system throughput?
+	- Is the level of security specified?
+	- Is the reliability specified, including the consequences of software failure, the vital information that needs to be protected from failure, and the strategy for error detection and recovery?
+	- Are minimum machine memory and free disk space specified?
+	- Is the maintainability of the system specified, including its ability to adapt to changes in specific functionality, changes in the operating environment, and changes in its interfaces with other software?
+	- Is the definition of success included? Of failure?
+- ## Requirements Quality
+	- Are the requirements written in the user's language? Do the users think so?
+	- Does each requirement avoid conflicts with other requirements?
+	- Are acceptable tradeoffs between competing attributes specified—for example, between robustness and correctness?
+	- Do the requirements avoid specifying the design?
+	- Are the requirements at a fairly consistent level of detail? Should any requirement be specified in more detail? Should any requirement be specified in less detail?
+	- Are the requirements clear enough to be turned over to an independent group for construction and still be understood? Do the developers think so?
+	- Is each item relevant to the problem and its solution? Can each item be traced to its origin in the problem environment?
+	- Is each requirement testable? Will it be possible for independent testing to determine whether each requirement has been satisfied?
+	- Are all possible changes to the requirements specified, including the likelihood of each change?
+- ## Requirements Completeness
+	- Where information isn't available before development begins, are the areas of incompleteness specified?
+	- Are the requirements complete in the sense that if the product satisfies every requirement, it will be acceptable?
+	- Are you comfortable with all the requirements? Have you eliminated requirements that are impossible to implement and included just to appease your customer or your boss?
