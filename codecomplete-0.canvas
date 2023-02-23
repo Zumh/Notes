@@ -1,9 +1,9 @@
 {
 	"nodes":[
-		{"id":"pages/codecomplete.md","x":0,"y":900,"width":500,"height":500,"color":"1","type":"file","file":"pages/codecomplete.md"},
-		{"id":"pages/Laying_foundation_SoftwareConstructions.md","x":1000,"y":0,"width":500,"height":500,"type":"file","file":"pages/Laying_foundation_SoftwareConstructions.md"},
-		{"id":"pages/Laying_foundation_metaphors.md","x":1000,"y":600,"width":500,"height":500,"type":"file","file":"pages/Laying_foundation_metaphors.md"},
-		{"id":"pages/Laying_foundation_MeasureTwiceCutOnce.md","x":1000,"y":1200,"width":500,"height":500,"type":"file","file":"pages/Laying_foundation_MeasureTwiceCutOnce.md"}
+		{"type":"file","file":"pages/codecomplete.md","id":"pages/codecomplete.md","x":-220,"y":140,"width":720,"height":1260},
+		{"type":"file","file":"pages/Laying_foundation_SoftwareConstructions.md","id":"pages/Laying_foundation_SoftwareConstructions.md","x":1000,"y":0,"width":500,"height":500},
+		{"type":"file","file":"pages/Laying_foundation_metaphors.md","id":"pages/Laying_foundation_metaphors.md","x":1000,"y":600,"width":500,"height":500},
+		{"type":"file","file":"pages/Laying_foundation_MeasureTwiceCutOnce.md","id":"pages/Laying_foundation_MeasureTwiceCutOnce.md","x":1000,"y":1200,"width":500,"height":500}
 	],
 	"edges":[
 		{"id":"pages/codecomplete.md-pages/Laying_foundation_SoftwareConstructions.md","fromNode":"pages/codecomplete.md","fromSide":"right","toNode":"pages/Laying_foundation_SoftwareConstructions.md","toSide":"left"},

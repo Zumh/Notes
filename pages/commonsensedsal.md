@@ -1,2 +1,3 @@
 - ![commonsenseDSAL.pdf](../assets/commonsenseDSAL_1676137890835_0.pdf)
+- [[commonsense_whyds]]
 -
