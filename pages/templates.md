@@ -1,3 +1,5 @@
+- Use this technique for studying 
+  [[Studying Technique]]
 - cert
   template:: cert
 	- cs50

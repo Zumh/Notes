@@ -1,64 +1,54 @@
-- ((63f7911c-f361-4cbf-9245-09815d2ba7ab))
-- First question a programmer should ask - does the code actually work?
-- Code maintainability involves 
-  * readability, organization, and modularity of one's code.
-- High quality code need - code efficiency
-  * data structure
-  * algorithm
-- Data structures
-  collapsed:: true
-	- how data is organized
-	- wrong data structure mean slower or not working at all
-- ## The Array: The Foundational Data Structure
-  collapsed:: true
-	- ## How computer memory work?
-		- When a program declares an array, it allocates a contiguous set of empty cells for use in the program.
-		- Now, every cell in a computer’s memory has a specific address.
-	- ### Ds operations
-	  id:: 63f7924e-168b-4f3b-a7cb-be97301d8137
-		- Read : With an array, this means looking up a value at a particular index.
-		  id:: 63f7925e-0b90-42dd-afb4-6b7deb405efa
-		  collapsed:: true
-			- A computer can read from an array in just one step.
-			  Example:  the computer would simply take the memory address at index 0 and add 3.
-			- Facts that allow Read operation to jump
-			  1. A computer can jump to any memory address in one step.
-			  2. Whenever a computer allocates an array, it also makes note at which memory address the array begins.
-		- Search : With an array, this means looking to see if a particular value exists within the array, and if so, at which index.
-		  id:: 63f79261-434b-47e7-b14f-52dcd6a42b96
-			- computer has no way to jump to a particular value. We have to rely on *linear* search
-			- For N cells in an array, linear search would take a maximum of N steps
-		- Insert : With an array, this means adding a new value to an additional slot within the array.
-			- Insert in the end 
-			  * take one step because no need to shift
-			- insert in the middle or begging 
-			  * take N + 1 steps we have to shift and insert
-			- Worst case scenario - insertion in the start
-		- Delete : With an array, this means removing one of the values from the array
-			- Like insertion, the worst-case scenario of deleting an element is deleting the very first element of the array.
-			- This is because index 0 would become empty, and we’d have to shift all the remaining elements to the left to fill the gap.
-- ## Measuring speed
-  collapsed:: true
-	- when we measure how “fast” an operation takes, we measured in how many steps it takes.
-	- Terms: speed, time complexity, efficiency, performance, and runtime interchangeably. They all refer to the number of steps a given operation takes.
-	- Why do we measure code’s speed in terms of steps?
-		- Measuring the speed of an operation in terms of time is undependable, the time will always change depending on the hardware it is run on.
-- ## Sets: How a Single Rule Can Affect Efficiency
-  collapsed:: true
-	- A *set* is a data structure that does not allow duplicate values to be contained within it.
-	- [Reading, Search](((63f7924e-168b-4f3b-a7cb-be97301d8137)))- operations have same steps as classical array
-	- Insertion
-		- Inserting a value at the end of a set - Best case scenario 
-		  * every insertion into a set first requires a search. 
-		  * For preventing duplicate
-		  * takes N + 1 steps - contrast regular array take one step
-		- Insert beginning of a set - Worst case scenario
-		  *  needs to search N cells
-		  *  another N steps to shift all the data to the right, and another final step to insert the new value. 2N + 1 steps
-		  * regular array take N + 1 steps
-		-
-- ## Exercises
-  ((63f7a74f-d0c3-4d0c-a571-84c127a2748a))
+- ((63f8bad2-9d8c-4775-9df0-248bae0d28d6))
+- [The Array: The Foundational Data Structure](((63f8d10f-0b2d-4f99-bcb2-eb1fe25e4257)))
+	- An array is a collection of data items that are stored in contiguous memory locations and have the same data type (p. 3).
+	- Arrays have two main properties: size and capacity (p. 4).
+		- Size is the number of elements currently stored in the array.
+		- Capacity is the maximum number of elements that can be stored in the array.
+	- Arrays support three basic operations: reading, writing, and resizing (p. 5-6).
+		- Reading is accessing an element at a given index.
+		- Writing is modifying an element at a given index.
+		- Resizing is changing the capacity of the array by creating a new array and copying the elements over.
+- [Measuring Speed](((63f8d142-23fe-4ccf-8476-509fbf5fb316)))
+	- Speed is how fast an algorithm or a program can perform a task (p. 7).
+	- Speed can be measured by counting the number of basic operations that are executed by an algorithm or a program (p. 7-8).
+		- Basic operations are simple instructions that take constant time to execute, such as arithmetic operations, comparisons, assignments, etc.
+		- The number of basic operations depends on the input size and the algorithm logic.
+	- Speed can also be measured by using time complexity analysis (p. 9-10).
+		- Time complexity analysis is a way of expressing how fast an algorithm grows as a function of its input size.
+		- Time complexity analysis uses big-O notation to describe the worst-case scenario of an algorithm's performance.
+- [Reading](((63f8d1c5-fd34-4984-9db2-dd3dffccf4c7)))
+	- Reading is accessing an element at a given index in an array (p. 5).
+	- Reading takes constant time because it only requires one basic operation: finding the memory address of the element by adding its index to the base address of the array (p. 5).
+	- The speed of reading does not depend on the input size or the position of the element (p. 5).
+- [Searching](((63f8d1ee-1dba-4e79-b0bc-1592fa9ce5f7)))
+	- Searching is finding an element that matches a given value in an array (p. 8).
+	- Searching takes linear time because it requires looping through the array and comparing each element with the value until a match is found or the end of the array is reached (p. 8-9).
+	- The speed of searching depends on the input size and the position of the element (p. 9).
+	- The best case is when the element is at the first index and only one comparison is needed.
+	- The worst case is when the element is not in the array or at the last index and n comparisons are needed, where n is the size of the array.
+	- The average case is when the element is somewhere in between and n/2 comparisons are needed.
+- [Insertion](((63f8d227-e3ba-4f94-8c21-4c6c0a57cb2c))) (p.11-13)
+	- Inserting an element into an array means adding a new value at a specific index
+	- To insert an element, we need to shift all the elements after that index one position to the right
+	- This requires looping through the array from right to left and copying each element to its next position
+	- The last element may be lost if the array is full
+	- Insertion takes O(N) time because we need to loop through N elements in the worst case
+- [Deletion](((63f8d237-27b4-4ce7-8ea2-41de61c51dcf))) (p.13-15)
+	- Deleting an element from an array means removing a value at a specific index
+	- To delete an element, we need to shift all the elements after that index one position to the left
+	- This requires looping through the array from left to right and copying each element to its previous position
+	- The first element may be empty if we delete the last element
+	- Deletion takes O(N) time because we need to loop through N elements in the worst case
+- [Sets: How a Single Rule Can Affect Efficiency](((63f8d271-b5f2-47af-898d-6d02ce032495))) (p.15-18)
+	- A set is a data structure that only allows unique values, no duplicates
+	- To implement a set using an array, we need to check if a value already exists before inserting it
+	- This requires looping through the array and comparing each element with the new value
+	- Checking for uniqueness takes O(N) time because we need to loop through N elements in the worst case
+	- A hash table can be used instead of an array to implement a set more efficiently
+	- A hash table uses a hash function to map each value to an index in another array called buckets
+	- To check for uniqueness, we only need to calculate the hash of the new value and look up its corresponding bucket
+	- If there is no collision (two values mapping to the same bucket), checking for uniqueness takes O(1) time because we only need one operation
+- ### [Exercises](((63f7a74f-d0c3-4d0c-a571-84c127a2748a)))
 	- 1. For an array containing 100 elements, provide the number of steps the following operations would take:
 		- a. Reading - 1 step because array's address addition take one step
 		  b. Searching for a value not contained within the array - 100 elements because array doesn't have starting address to add

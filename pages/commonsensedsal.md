@@ -1,3 +1,7 @@
 - ![commonsenseDSAL.pdf](../assets/commonsenseDSAL_1676137890835_0.pdf)
+- [[RulesForBigOCalculation]]
 - [[commonsense_whyds]]
--
+- [[commonsense_whyAlgorithms]]
+- [[commonsense_bigO]]
+- [[commonsense_speedUpwithO]]
+- [[commonsense_optimizingcodewithBigO]]

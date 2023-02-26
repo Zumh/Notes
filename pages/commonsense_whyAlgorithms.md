@@ -1,0 +1,26 @@
+- ((63f8d2f0-ac8a-4843-ba90-431eb6ed7752))
+- [Ordered Arrays](((63f9065a-568a-4e7e-a0ac-0421075cbc3b)))
+	- An array is a data structure that stores multiple values in a single variable [p.22]
+	- An ordered array is an array that has its values sorted in ascending or descending order [p.22]
+	- An ordered array makes searching faster and easier than an unordered array [p.23]
+	- To insert or delete a value in an ordered array, you need to shift other values to maintain the order [p.24]
+- [Searching an Ordered Array](((63f9066a-8593-4462-99b3-81b7f1b8671b)))
+	- Searching is finding a specific value in an array [p.23]
+	- One way to search an ordered array is linear search, which means checking each value one by one from left to right until you find a match or reach the end [p.24]
+	- Linear search takes O(N) time, which means it depends on how many values are in the array [p.25]
+- [Binary Search](((63f9067f-1cc2-4a39-bfd3-73b90dacb065)))
+	- Binary search is another way to search an ordered array that is faster than linear search [p.26]
+	- Binary search works by comparing the middle value of the array with the target value and eliminating half of the array based on whether the target is smaller or larger than the middle value [p.26-27]
+	- Binary search repeats this process until it finds a match or reaches an empty subarray [p.28-29]
+	- Binary search takes O(log N) time, which means it depends on how many times you can divide N by two until you get one [p.31]
+- [Binary Search vs. Linear Search](((63f90697-df56-4ce7-acfc-51917556c7d0)))
+	- Binary search is more efficient than linear search for large arrays because it eliminates more values with each comparison [p.31-32]
+	- Linear search is simpler and easier to implement than binary search because it does not require sorting or dividing the array [p.32]
+	- Linear search can also handle dynamic arrays that change frequently better than binary search because it does not need to re-sort them every time [p.32]
+- [Exercise](((63f90763-1a4d-49e0-9d3e-cb4365e97a67)))
+	- 1. How many steps would it take to perform a linear search for the number 8 in the ordered array, [2, 4, 6, 8, 10, 12, 13]?
+		- 4 steps because we search every element.
+	- 2. How many steps would binary search take for the previous example?
+		- 3 steps because binary search.
+	- 3. What is the maximum number of steps it would take to perform a binary search on an array of size 100,000?
+		- 5 steps to divide size 100,000 by 2 until we get 1 for remainders.

@@ -1,0 +1,3 @@
+- ![The Feynman Technique: How to Learn Anything Quickly](https://blog.doist.com/wp-content/uploads/2020/02/feynman-technique_graphic-1_resize-1.png)
+- Write list of chapter  topics in this PDF?
+- Use step 2 of the Feynman Technique in concise form to learn the following topics from Chapter 1 in this PDF: <topics>. Write bullet points and page references for each topic.
